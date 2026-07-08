@@ -1,54 +1,33 @@
 # Paradise Nursery Shopping App
 
-Paradise Nursery is a React and Redux shopping cart application for browsing houseplants, adding them to a cart, adjusting quantities, and viewing the total cost before checkout.
+Paradise Nursery is a React and Redux Toolkit shopping cart application for a fictional houseplant store. The project includes a landing page, a product listing page, and a shopping cart page.
 
-## Project features
+## Project Features
 
-- Landing page with background image, company name, company description, and Get Started button.
-- Product listing page with 18 houseplants grouped into 3 categories.
-- Add to Cart buttons that become disabled after selection.
-- Header navigation on the product listing and cart pages.
-- Dynamic cart icon showing the total number of items.
-- Shopping cart page with plant thumbnails, names, unit prices, item totals, quantity controls, delete buttons, cart total, continue shopping button, and checkout placeholder.
+- Landing page with the Paradise Nursery company name, background image, company information, and Get Started button.
+- Product listing page with houseplants grouped into multiple categories.
+- Add to Cart functionality using Redux Toolkit.
+- Dynamic cart icon showing the total number of items in the cart.
+- Disabled Add to Cart button after a product is selected.
+- Shopping cart page with item thumbnails, names, unit prices, quantities, item totals, total quantity, and total cart cost.
+- Increase, decrease, delete, continue shopping, and checkout buttons.
 
-## Technologies used
+## Technologies Used
 
 - React
 - Redux Toolkit
 - React Redux
-- React Router
+- React Router DOM
 - Vite
 - GitHub Pages
 
-## Run locally
+## Running Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build for production
-
-```bash
-npm run build
-```
-
 ## Deployment
 
-This project is ready for GitHub Pages deployment using the included GitHub Actions workflow.
-
-After pushing to GitHub, go to:
-
-Settings > Pages > Build and deployment > Source > GitHub Actions
-
-## Submission file locations
-
-Use public GitHub URLs for these files after pushing the repository:
-
-- README.md
-- src/components/AboutUs.jsx
-- src/App.css
-- src/App.jsx
-- src/features/cart/CartSlice.jsx
-- src/components/ProductList.jsx
-- src/components/CartItem.jsx
+This project can be deployed using GitHub Pages from the `/docs` folder or by building the Vite app.

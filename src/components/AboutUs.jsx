@@ -1,22 +1,17 @@
-import { Link } from 'react-router-dom';
-
 function AboutUs() {
   return (
-    <main className="landing-page">
-      <section className="landing-card">
-        <p className="eyebrow">Welcome to</p>
-        <h1>Paradise Nursery</h1>
-        <p className="about-text">
-          Paradise Nursery helps plant lovers create calm, beautiful, and healthy
-          indoor spaces with carefully selected houseplants. From air-purifying
-          favorites to low-maintenance succulents and tropical statement plants,
-          we make it easy to find the perfect greenery for your home or office.
-        </p>
-        <Link className="primary-button" to="/plants">
-          Get Started
-        </Link>
-      </section>
-    </main>
+    <div className="about-us-container">
+      <h2>About Paradise Nursery</h2>
+      <p>
+        Paradise Nursery is a trusted online houseplant shop dedicated to helping customers create beautiful, healthy, and refreshing indoor spaces.
+      </p>
+      <p>
+        Our mission is to make plant ownership simple and enjoyable by offering carefully selected houseplants, clear plant information, and affordable prices for every home and office.
+      </p>
+      <p>
+        We provide a wide range of indoor plants, including aromatic plants, air-purifying plants, and low-maintenance plants for new and experienced plant lovers.
+      </p>
+    </div>
   );
 }
 
