@@ -1,0 +1,7 @@
+Deploy without GitHub Actions:
+1. Upload all contents of this folder to your GitHub repo root.
+2. Go to Settings > Pages.
+3. Under Build and deployment, set Source to Deploy from a branch.
+4. Select Branch: main and Folder: /docs.
+5. Save.
+6. Open https://slimvic7.github.io/paradise-nursery/ and hard refresh with Ctrl+F5.
