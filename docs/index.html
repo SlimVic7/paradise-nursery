@@ -85,7 +85,7 @@
     function go(target) { page = target; location.hash = target; render(); }
 
     function navbar() {
-      return `<nav class="navbar"><a class="logo" onclick="go('home')">Paradise Nursery</a><div class="nav-links"><a onclick="go('home')">Home</a><a onclick="go('products')">Plants</a><a class="cart-link" onclick="go('cart')">🛒 <span class="cart-count">${totalQty()}</span></a></div></nav>`;
+      return `<nav class="navbar"><a class="logo" onclick="go('home')">Paradise Nursery</a><div class="nav-links"><a onclick="go('home')">Home</a><a onclick="go('products')">Plants</a><a class="cart-link" onclick="go('cart')">🛒 Cart <span class="cart-count">${totalQty()}</span></a></div></nav>`;
     }
 
     function renderHome() {

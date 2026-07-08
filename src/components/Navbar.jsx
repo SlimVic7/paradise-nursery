@@ -12,7 +12,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/products">Plants</Link>
         <Link className="cart-link" to="/cart">
-          🛒 <span className="cart-count">{totalItems}</span>
+          🛒 Cart <span className="cart-count">{totalItems}</span>
         </Link>
       </div>
     </nav>
